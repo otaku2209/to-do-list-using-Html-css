@@ -1,0 +1,42 @@
+body {
+	background-color: #87CEEB; /* light blue background */
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #ADD8E6; /* pale blue background */
+	border: 1px solid #87CEEB;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+label {
+	font-size: 18px;
+}
+
+input[type="checkbox"]:checked + label {
+	text-decoration: line-through;
+	color: #666;
+}
